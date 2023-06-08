@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         draggedItem = null;
       }
     }
-  
+  //  this function reset items
     function resetContainers() {
       const firstContainer = document.getElementById("first-container");
       while (secondContainer.firstChild) {
